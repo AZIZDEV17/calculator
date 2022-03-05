@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/475497.png">
+</head>
+<body oncontextmenu="return false;">
+    <div id="slider">
+        <button onclick="Basic()" id="basic">Asosiy</button>
+        <button onclick="Simple()" id="simple">Oddiy</button>
+    </div>
+    <div id="container">
+        <p for="son1">1-sonni kiriting</p>
+        <input type="number" id="son1" placeholder="Sonni kiriting"><br>
+        <p for="amal">Amalni kiriting</p>
+        <input type="text" id="amal" placeholder="Amalni kiriting"><br>
+        <p for="son2">2-sonni kiriting</p>
+        <input type="number" id="son2" placeholder="Sonni kiriting">
+        <div id="btn">
+            <button onclick="Hisob()" id="hisob">Hisoblash</button>
+            <button onclick="Ochir()" id="ochir">O`chirish</button>
+        </div>
+        <h1 id="javob"></h1>
+    </div>
+    <div id="calc">
+        <div id="display">
+            <h1 id="result"></h1>
+        </div>
+        <div id="keys">
+            <div>
+                <button onclick="Number(7)">7</button>
+                <button onclick="Number(8)">8</button>
+                <button onclick="Number(9)">9</button>
+                <button onclick="Multiple()">*</button>
+            </div>
+            <div>
+                <button onclick="Number(4)">4</button>
+                <button onclick="Number(5)">5</button>
+                <button onclick="Number(6)">6</button>
+                <button onclick="Divide()">/</button>
+            </div>
+            <div>
+                <button onclick="Number(1)">1</button>
+                <button onclick="Number(2)">2</button>
+                <button onclick="Number(3)">3</button>
+                <button onclick="Minus()">-</button>
+            </div>
+            <div>
+                <button onclick="Number(0)">0</button>
+                <button onclick="Dot()">.</button>
+                <button onclick="Equal()">=</button>
+                <button onclick="Plus()">+</button>
+            </div>
+            <div style="width: 100%;">
+                <button onclick="Clear()" style="width: 100%;">AC</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
