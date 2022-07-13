@@ -32,34 +32,48 @@
         </div>
         <div id="keys">
             <div>
-                <button onclick="Number(7)">7</button>
-                <button onclick="Number(8)">8</button>
-                <button onclick="Number(9)">9</button>
-                <button onclick="Multiple()">*</button>
+                <button class="numbers" onclick="Number7()">7</button>
+                <button class="numbers" onclick="Number8()">8</button>
+                <button class="numbers" onclick="Number9()">9</button>
+                <button class="ops" onclick="Number10()">×</button>
+                <button class="ops mb" onclick="Number11()">√</button>
+                <button class="ops mb" onclick="Number12()">x<sup>y</sup></button>
             </div>
             <div>
-                <button onclick="Number(4)">4</button>
-                <button onclick="Number(5)">5</button>
-                <button onclick="Number(6)">6</button>
-                <button onclick="Divide()">/</button>
+                <button class="numbers" onclick="Number4()">4</button>
+                <button class="numbers" onclick="Number5()">5</button>
+                <button class="numbers" onclick="Number6()">6</button>
+                <button class="ops" onclick="Number13()">÷</button>
+                <button class="ops mb" onclick="Number14()">π</button>
+                <button class="ops mb" onclick="Number15()">e</button>
             </div>
             <div>
-                <button onclick="Number(1)">1</button>
-                <button onclick="Number(2)">2</button>
-                <button onclick="Number(3)">3</button>
-                <button onclick="Minus()">-</button>
+                <button class="numbers" onclick="Number1()">1</button>
+                <button class="numbers" onclick="Number2()">2</button>
+                <button class="numbers" onclick="Number3()">3</button>
+                <button class="ops" onclick="Number16()">-</button>
+                <button class="ops mb" onclick="Number17()">sin</button>
+                <button class="ops mb" onclick="Number18()">cos</button>
             </div>
             <div>
-                <button onclick="Number(0)">0</button>
-                <button onclick="Dot()">.</button>
-                <button onclick="Equal()">=</button>
-                <button onclick="Plus()">+</button>
+                <button class="numbers" onclick="Number0()">0</button>
+                <button class="numbers" onclick="Number19()">.</button>
+                <button class="equal" onclick="Number20()">=</button>
+                <button class="ops" onclick="Number21()">+</button>
+                <button class="ops mb" onclick="Number22()">tan</button>
+                <button class="ops mb" onclick="Number23()">!</button>
             </div>
             <div style="width: 100%;">
-                <button onclick="Clear()" style="width: 100%;">AC</button>
+                <button class="ops" style="overflow: hidden;" onclick="Number24()"><img class="clear_icons" src="./img/allclr.png" alt=""></button>
+                <button class="ops" style="overflow: hidden;" onclick="Number25()"><img class="clear_icons" src="./img/clr.png" alt=""></button>
+                <button class="ops" onclick="Number26()">()</button>
+                <button class="ops" onclick="Number27()">%</button>
+                <button class="ops mb" onclick="Number28()">ln</button>
+                <button class="ops mb" onclick="Number29()">log</button>
             </div>
         </div>
     </div>
+    <p style="float: right; text-align: center;">Saytga tashrif buyurganlar soni<br><img src="https://hitwebcounter.com/counter/counter.php?page=7963865&style=0030&nbdigits=1&type=ip&initCount=0"/><span style="font-size: 25px;"> ta</span></p>
     <script src="./script/script.js"></script>
 </body>
 </html>
